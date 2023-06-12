@@ -67,7 +67,7 @@ if __name__=='__main__':
                 y_l='0'+y_l
             d=d/2  
         while len(y_l)!=(t-1):
-            y_l=y_l+'0'
+            y_l='0' +y_l
         y.append(y_l)
         pad1="" #initial padding
         for j in range(m+1):
